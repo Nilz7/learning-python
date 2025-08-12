@@ -1,10 +1,15 @@
-list = [[10,40,20,50],[2,42,10],[101,10,4]]
+def calculator(num1, num2, operation):
+	match operation:
+		case 'plus':
+			print(f"{num1 + num2}");
+		case 'minus':
+			print(f"{num1 - num2}");
+		case 'divide':
+			print(f"{num1 / num2}");
+		case 'multiply':
+			print(f"{num1 * num2}");
 
-for i in list:
-	for j in i:
-		if j > 100:
-			break
-		if j < 50:
-			if j < 10:
-				continue
-			print(j)
+calculator(10,4,'plus')
+calculator(10,4,'minus')
+calculator(10,4,'divide')
+calculator(10,4,'multiply')
