@@ -39,17 +39,17 @@
 # list_num = [[i,j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if (i+j+k) != n]
 # print(list_num)
 
-n = 5
-arr = map(int, '2 3 6 6 5'.split())
-my_list = list(arr)
-my_list.sort(reverse=True)
-print(my_list)
-runner_score = 0
-high_score = my_list[0]
-for index,num in enumerate(my_list):
-    if num == high_score: continue
-    runner_score = num
-    break
-print(runner_score)
+# n = 5
+# arr = map(int, '2 3 6 6 5'.split())
+# my_list = list(arr)
+# my_list.sort(reverse=True)
+# print(my_list)
+# runner_score = 0
+# high_score = my_list[0]
+# for index,num in enumerate(my_list):
+#     if num == high_score: continue
+#     runner_score = num
+#     break
+# print(runner_score)
 
     
